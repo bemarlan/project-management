@@ -1,7 +1,3 @@
-<h1 class="">Welcome</h1>
-<p class="">Here are your tasks:</p>
-<p class="">- take out trash<br>
-- do dishes<br />
-- do homework</p>
+<h1>Welcome</h1>
 
-<?php include 'forms/taskform.php'; ?>
+<?php include 'structures/addtask.php'; ?>

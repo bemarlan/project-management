@@ -1,3 +1,10 @@
+/*
+* COLOR PALETTE
+* 
+* cta/link blue:			#4a74c9
+* light gray borers:		#c6c4c4
+*/
+
 /* ---- GLOBAL ---- */
 * {
 	box-sizing: border-box;
@@ -57,6 +64,12 @@ h5 {
 .col2 {
 	width: calc(100%/2.05);
 }
+	.col2-lg {
+		width: 69%;
+	}
+	.col2-sm {
+		width: 30%;
+	}
 .col3 {
 	width: calc(100%/3.1);
 }
@@ -64,22 +77,12 @@ h5 {
 	width: calc(100%/4.1);
 }
 
-/* ---- SPECIAL ELEMENTS ----*/
-.visually-hidden {
-	position: absolute;
-	left: -10000px;
-	top: auto;
-	width: 1px;
-	height: 1px;
-	overflow: hidden;
-}
-.visually-hidden:focus {
-	top: 0;
-	left: 0;
-	width: auto;
-	height: auto;
-	background-color: #fff2a8;
-	color: #990000;
+/* all cols become max width at 800px */
+@media screen and (max-width: 50rem) {
+	[class^="col"] {
+		display: block;
+		width: 100%
+	}
 }
 
 /* ---- BUTTONS ---- */
@@ -103,6 +106,64 @@ label {
 }
 textarea {
 	display: block;
+}
+input[type="checkbox"] {
+	width: 20px;
+}
+
+/* ---- BORDERS ---- */
+.border-rt-gray {
+	border-right: 1px solid #c6c4c4;
+}
+
+/* ---- PADDING/MARGIN ---- */
+.pb-05 {
+	padding-bottom: 0.5rem;
+}
+
+.mb-075 {
+	margin-bottom: 0.75rem;
+}
+.mb-1 {
+	margin-bottom: 1rem;
+}
+.mr-1 {
+	margin-right: 1rem;
+}
+
+/* ---- SPECIAL ELEMENTS ----*/
+.visually-hidden {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+.visually-hidden:focus {
+	top: 0;
+	left: 0;
+	width: auto;
+	height: auto;
+	background-color: #fff2a8;
+	color: #990000;
+}
+
+/* ---- OBJECTS ---- */
+/* box */
+.box-hard {
+	padding: .5rem;
+	border: 2px solid #c6c4c4;
+	max-width: 500px;
+}
+/* rounded box */
+.box-soft {
+	padding: .5rem;
+	border: 1px solid #c6c4c4;
+	border-radius: .4rem;
+}
+.box-soft p {
+	font-size: .8rem;
 }
 
 /* ---- CLASS SPECIFIC ---- */
