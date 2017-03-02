@@ -27,10 +27,19 @@
 		<label>Collateral: </label>
 		<input type="file" name="collateral">
 	</div>
+
+		<label>Preceding Tasks: </label>
+		<section class="box-hard mb-1">
+			<input type="checkbox" name="pretask" value="task1">task 1 <br>
+			<input type="checkbox" name="pretask" value="task2">task 2 <br>
+			<input type="checkbox" name="pretask" value="task3">task 3 <br>
+		</section>
+
 		<label>Notes: </label>
-		<textarea name="notes" cols="60" rows="10"></textarea>
+		<textarea name="notes" cols="60" rows="10" class="mb-1"></textarea>
+
 	<div>
-		<input type="reset" name="reset">
+		<input type="reset" name="reset" class="mr-1">
 		<input id="submitTask" type="submit" name="submit">
 	</div>
 </form>
