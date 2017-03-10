@@ -3,6 +3,7 @@
 * 
 * cta/link blue:			#4a74c9
 * light gray borers:		#c6c4c4
+* white background: 		#fcfcfc
 */
 
 /* ---- GLOBAL ---- */
@@ -15,8 +16,13 @@
 /* ---- STANDARD ELEMENTS ---- */
 body {
 	padding: 2rem 3rem;
-	background-color: #eaebed;
+	background-color: #eaeaea;
 }
+	@media screen and (max-width: 59.375rem) {
+		body {
+			padding: 1rem 0.5rem;
+		}
+	}
 p {
 	line-height: 1.6;
 	padding-bottom: 0.5rem;
@@ -27,6 +33,7 @@ a {
 }
 a:hover {
 	text-decoration: none;
+	cursor: pointer;
 }
 h1 {
 	font-size: 3rem;
@@ -38,7 +45,7 @@ h2 {
 }
 h3 {
 	font-size: 1.8rem;
-	padding: 1.5rem 0;
+	padding: 0 0 1.5rem 0;
 }
 h4 {
 	font-size: 1.3rem;
@@ -91,11 +98,16 @@ input[type="reset"] {
 	background-color: #4a74c9;
 	color: #ffffff;
 	border: 1px solid #ffffff;
+	cursor: pointer;
 }
 
 /* ---- FORM ---- */
 form div {
 	display: table-row;
+}
+fieldset {
+	border: 1px solid #c6c4c4;
+	padding: 0.5em;
 }
 label, input, select {
 	display: table-cell;
@@ -106,6 +118,8 @@ label {
 }
 textarea {
 	display: block;
+	background-color: #fcfcfc;
+	border: 1px solid #c6c4c4;
 }
 input[type="checkbox"] {
 	width: 20px;
@@ -115,10 +129,25 @@ input[type="checkbox"] {
 .border-rt-gray {
 	border-right: 1px solid #c6c4c4;
 }
+	@media screen and (max-width: 50rem) {
+		.border-rt-gray {
+			border-right: none;
+			border-bottom: 1px solid #c6c4c4;
+		}
+	}
 
 /* ---- PADDING/MARGIN ---- */
+.pb-025 {
+	padding-bottom: 0.25rem;
+}
 .pb-05 {
 	padding-bottom: 0.5rem;
+}
+.pt-0 {
+	padding-top: 0;
+}
+.pl-0 {
+	padding-left: 0;
 }
 
 .mb-075 {
@@ -131,7 +160,26 @@ input[type="checkbox"] {
 	margin-right: 1rem;
 }
 
-/* ---- SPECIAL ELEMENTS ----*/
+/* ---- FONT ---- */
+.bold {
+	font-weight: bold;
+}
+.light {
+	font-weight: 100;
+	color: #96989b;
+}
+
+/* ---- ALIGNMENT ---- */
+.rt {
+	text-align: right;
+}
+	@media screen and (max-width: 50rem) {
+		.rt {
+			text-align: left;
+		}
+	}
+
+/* ---- SPECIAL ELEMENTS ---- */
 .visually-hidden {
 	position: absolute;
 	left: -10000px;
@@ -153,17 +201,27 @@ input[type="checkbox"] {
 /* box */
 .box-hard {
 	padding: .5rem;
-	border: 2px solid #c6c4c4;
+	border: 2px solid #cecece;
 	max-width: 500px;
+	background-color: #fcfcfc;
 }
 /* rounded box */
 .box-soft {
 	padding: .5rem;
-	border: 1px solid #c6c4c4;
-	border-radius: .4rem;
+	border: 1px solid #cecece;
+	border-radius: .15rem;
+	box-shadow: 0px 0px 2px 0px #cecece;
+	background-color: #fcfcfc;
 }
 .box-soft p {
 	font-size: .8rem;
+}
+.box-soft-round {
+	border-radius: 50px;
+	padding: 1.5rem 1rem;
+	border: 1px solid #cecece;
+	border-radius: 50px;
+	box-shadow: 0px 0px 10px 0px #cecece;
 }
 
 /* ---- CLASS SPECIFIC ---- */
@@ -176,7 +234,9 @@ label.req:after {
 	color: #96989b;
 	font-size: 0.8rem;
 }
-
+.more {
+	font-style: italic;
+}
 
 
 
