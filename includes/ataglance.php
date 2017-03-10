@@ -1,6 +1,6 @@
 <div class="col2-lg box-soft-round">
 	<p class="light">At a glance</p>
-	<h3>Today's Tasks</h3>	
+	<h2>Today's Tasks</h2>	
 
 	<div>
 		<div class="box-soft mb-075">
