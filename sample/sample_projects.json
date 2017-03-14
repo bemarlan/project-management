@@ -1,0 +1,163 @@
+// sample task data
+// place file under data/
+
+{
+	"project": [
+		// PROJECT 1
+		{
+			"id": "01",
+			"name": "Project 1",
+			"tasks": [
+
+				// TASK 1
+				{
+					"id": "01",
+					"name": "Task 1"
+					"dueDate": "6/7/2017",
+					"estTime": "6.75",
+					"status": "Not started",
+					"collateral": "collateral/example.png",
+					"precedingTasks": [
+					],
+					"notes": [
+						{
+							"title": "Lorem ipsum dolor",
+							"date": "2/28/2017",
+							"comment": "Omnis errem mea et, consul ridens ea sed. Vis nobis democritum ut, ne persius alterum necessitatibus qui. His ad ludus mucius, eius ludus malorum nam no. Est debet utroque id. Ei vel adipisci lobortis erroribus, ad populo laoreet dolorem eum, mei cu sanctus concludaturque. At ius essent lobortis, an per integre labitur eripuit."
+						},
+					]
+				}, // end task
+
+				// TASK 2
+				{
+					"id": "02",
+					"name": "Task 2",
+					"dueDate": "6/7/2017",
+					"estTime": "2.5",
+					"status": "Not started",
+					"collateral": "collateral/example.png",
+					"precedingTasks": [
+						// PRECEDING 1
+						{
+							"id": "01",
+							"name": "Task 1",
+						},
+					],
+					"notes": [
+						// NOTE 1
+						{
+							"title": "Lorem ipsum dolor",
+							"date": "2/28/2017",
+							"comment": "Omnis errem mea et, consul ridens ea sed. Vis nobis democritum ut, ne persius alterum necessitatibus qui. His ad ludus mucius, eius ludus malorum nam no. Est debet utroque id. Ei vel adipisci lobortis erroribus, ad populo laoreet dolorem eum, mei cu sanctus concludaturque. At ius essent lobortis, an per integre labitur eripuit."
+						},
+					]
+				}, // end task
+
+			], // end all tasks
+		},
+
+		// PROJECT 2
+		{
+			"id": "01",
+			"name": "Project 2",
+			"tasks": [
+				// TASK 1
+				{
+					"id": "01",
+					"name": "Task 1",
+					"dueDate": "6/7/2017",
+					"estTime": "6.75",
+					"status": "Not started",
+					"collateral": "collateral/example.png",
+					"precedingTasks": [
+					],
+					"notes": [
+						// NOTE 1
+						{
+							"title": "Lorem ipsum dolor",
+							"date": "2/28/2017",
+							"comment": "Omnis errem mea et, consul ridens ea sed. Vis nobis democritum ut, ne persius alterum necessitatibus qui. His ad ludus mucius, eius ludus malorum nam no. Est debet utroque id. Ei vel adipisci lobortis erroribus, ad populo laoreet dolorem eum, mei cu sanctus concludaturque. At ius essent lobortis, an per integre labitur eripuit."
+						},
+						// NOTE 2
+						{
+							"title": "Lorem ipsum dolor duce",
+							"date": "2/29/2017",
+							"comment": "Vis nobis democritum ut"
+						},
+					],
+				}, // end task
+
+				// TASK 2
+				{
+					"id": "02",
+					"name": "Task 2",
+					"dueDate": "5/1/2017",
+					"estTime": "1.25",
+					"status": "Not started",
+					"collateral": "collateral/example.png",
+					"precedingTasks": [
+						// PRECEDING 1
+						{
+							"id": "01",
+							"name": "Task 1",
+						},
+					],
+					"notes": [
+						// NOTE 1
+						{
+							"title": "Lorem ipsum dolor",
+							"date": "3/1/2017",
+							"comment": "Omnis errem mea et, consul ridens ea sed. Vis nobis democritum ut, ne persius alterum necessitatibus qui. His ad ludus mucius, eius ludus malorum nam no. Est debet utroque id. Ei vel adipisci lobortis erroribus, ad populo laoreet dolorem eum, mei cu sanctus concludaturque. At ius essent lobortis, an per integre labitur eripuit."
+						},
+						// NOTE 2
+						{
+							"title": "Lorem ipsum dolor duce",
+							"date": "3/3/2017",
+							"comment": "Vis nobis democritum ut"
+						},
+					],
+				}, // end task
+
+				// TASK 3
+				{
+					"id": "03",
+					"name": "Task 3",
+					"dueDate": "5/2/2017",
+					"estTime": "4",
+					"status": "Not started",
+					"collateral": "collateral/example.png",
+					"precedingTasks": [
+						// PRECEDING 1
+						{
+							"id": "01",
+							"name": "Task 1",
+						},
+						// PRECEDING 2
+						{
+							"id": "02",
+							"name": "Task 2",
+						},
+					],
+					"notes": [
+						// NOTE 1
+						{
+							"title": "Lorem ipsum dolor",
+							"date": "3/1/2017",
+							"comment": "Omnis errem mea et, consul ridens ea sed. Vis nobis democritum ut, ne persius alterum necessitatibus qui. His ad ludus mucius, eius ludus malorum nam no. Est debet utroque id. Ei vel adipisci lobortis erroribus, ad populo laoreet dolorem eum, mei cu sanctus concludaturque. At ius essent lobortis, an per integre labitur eripuit."
+						},
+						// NOTE 2
+						{
+							"title": "Lorem ipsum dolor duce",
+							"date": "3/3/2017",
+							"comment": "Vis nobis democritum ut"
+						},
+					],
+				}, // end task
+
+				
+
+			], // end all tasks
+		}, // end project
+
+	] // end project array
+} // end obj

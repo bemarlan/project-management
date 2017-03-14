@@ -28,7 +28,11 @@
 *.sqlite
 *.db
 db.php
+
+# Data folders #
+################
 sftp-config.json
+data/*
 
 # OS generated files #
 ######################

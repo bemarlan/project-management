@@ -1,3 +1,8 @@
+<!--
+	sample db connection
+	place file in root
+-->
+
 <?php
 
 $user = 'user';
