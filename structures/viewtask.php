@@ -9,13 +9,8 @@
 		<p>Collateral: <a>reference_guide.docx</a></p>
 	</div>
 	<div class="col2-sm pl-0">
-		<select name="Status">
-			<option value="Not started">Not started</option>
-			<option value="Red folder">Red folder</option>
-			<option value="Pending" selected>Pending</option>
-			<option value="Complete">Complete</option>
-		</select>
+		<?php include 'forms/fields/status.php'; ?>
 	</div>
 </div>
 
-<?php include 'component/taskwithnotes.php'; ?>
+<?php include 'includes/task-with-notes.php'; ?>

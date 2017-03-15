@@ -2,6 +2,13 @@
 // db connect and error handling
 require_once('db.php');
 
+$str = file_get_contents('data/projects-test.json');
+$json = json_decode($str, true); // decode the JSON into an associative array
+
+// $data = new RecursiveIteratorIterator(
+//     new RecursiveArrayIterator(json_decode($json, TRUE)),
+//     RecursiveIteratorIterator::SELF_FIRST);
+
 /*** build out site ***/
 ?>
 
