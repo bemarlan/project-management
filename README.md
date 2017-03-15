@@ -1,6 +1,8 @@
 # Project Manager
 A light-weight application used to manage projects by breaking down tasks.
 
+_This application is under active development_
+
 ## Getting Started
 
 ### Prerequisites
@@ -22,7 +24,7 @@ After downloading (and unzipping, if necessary), you will need to **manually** p
 
 ## Built With
 - PHP
-- JSON
+- JavaScript
 - MYSQL
 
 ## Versioning

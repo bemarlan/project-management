@@ -13,6 +13,10 @@
 
 <h3>Tasks to be included:</h2>
 
-<fieldset>
-	<?php include 'forms/task/taskform.php'; ?>
-</fieldset>
+<div>
+	<form id="addTask" action="taskform-post.php" method="post" novalidate="novalidate">
+		<fieldset>
+			<?php include 'forms/task/taskform.php'; ?>
+		</fieldset>
+	</form>
+</div>

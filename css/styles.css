@@ -106,6 +106,7 @@ input[type="reset"] {
 	color: #ffffff;
 	border: 1px solid #ffffff;
 	cursor: pointer;
+	margin-top: 2rem;
 }
 
 /* ---- FORM ---- */
@@ -198,6 +199,14 @@ input[type="checkbox"] {
 }
 	@media screen and (max-width: 50rem) {
 		.rt {
+			text-align: left;
+		}
+	}
+.center {
+	text-align: center;
+}
+	@media screen and (max-width: 50rem) {
+		.center {
 			text-align: left;
 		}
 	}
