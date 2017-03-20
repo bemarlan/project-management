@@ -5,6 +5,10 @@
 	<div class="col2-lg pt-0 pl-0">
 		<p class="light">Project: Prompta epicuri quaerendum</p>
 		<p class="green">Due: 5/21/2017</p>
+		<!--
+			add functionality to change due date
+		<a>Change due date</a>
+		-->
 		<p>Estimated time remaining: 2hr 45min</p>
 		<p>Collateral: <a>reference_guide.docx</a></p>
 	</div>

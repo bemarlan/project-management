@@ -1,3 +1,7 @@
+<!--
+home acting as wireframe showcase at this time.
+-->
+
 <h1>Welcome</h1>
 
 <?php include 'structures/addtask.php'; ?>
@@ -11,6 +15,5 @@
 <?php include 'structures/addproject.php'; ?>
 <br><br><br><br><br><br><br><br><br><br>
 <?php include 'structures/addtemplate.php'; ?>
-
 <br><br><br><br><br><br><br><br><br><br>
-<?php include 'includes/tasklist-sm-dynamic.php'; ?>
+<?php include 'structures/viewtasks.php'; ?>

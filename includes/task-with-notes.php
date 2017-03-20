@@ -1,6 +1,6 @@
 <div class="box-soft mb-075">
 	<div class="col2-xlg border-rt-gray">
-		<div class="pb-05 bold">Diam latine discere eum ex</div>
+		<div class="pb-05 bold">Note 1 Diam latine discere eum ex</div>
 		<p class="pb-05 light">2/22/2017</p>
 		<p>Omnis errem mea et, consul ridens ea sed. Vis nobis democritum ut, ne persius alterum necessitatibus qui. His ad ludus mucius, eius ludus malorum nam no. Est debet utroque id. Ei vel adipisci lobortis erroribus, ad populo laoreet dolorem eum, mei cu sanctus concludaturque. At ius essent lobortis, an per integre labitur eripuit.</p>
 	</div>
